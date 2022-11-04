@@ -62,10 +62,6 @@ img {
 
 /*---------------------- навігація */
 
-.header-mail-icon,
-.heder-tel-icon {
-  margin-right: 10px;
-}
 .navigation {
   display: flex;
   align-items: baseline;
@@ -103,7 +99,7 @@ img {
 .contact-item:not(:last-child) {
   margin-right: 50px;
 }
-.item-mail {
+.item-contakt-link {
   display: flex;
   align-items: center;
   padding-top: 32px;
@@ -115,24 +111,13 @@ img {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-.item-tel {
-  display: flex;
-  align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
+.header-mail-icon,
+.heder-tel-icon {
+fill: currentColor;
+margin-right: 10px;
 }
-.item-mail:hover,
-.item-mail:focus {
-  color: var(--brand-color);
-}
-.item-tel:hover,
-.item-tel:focus {
+.item-contakt-link:hover,
+.item-contakt-link:focus {
   color: var(--brand-color);
 }
 .navigation-link.current {
