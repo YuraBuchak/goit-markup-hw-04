@@ -366,12 +366,16 @@ border: 1px solid var(--brand-color);
 
 
 
-/* ____________________________ФУТЕР */
+/* _____________________ФУТЕР */
 
 .footer {
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.footer-container {
+  display: flex;
+  align-items: baseline;
 }
 .logo-link-footer {
   display: inline-block;
@@ -405,14 +409,9 @@ border: 1px solid var(--brand-color);
 .address-mail {
   display: inline-block;
   margin-bottom: 9px;
-
-  font-style: normal;
-  font-size: 14px;
-  line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
 }
-.address-tel {
+.address-tel,
+.address-mail {
   font-style: normal;
   font-size: 14px;
   line-height: calc(24 / 14);
@@ -426,6 +425,38 @@ border: 1px solid var(--brand-color);
 .address-mail:hover,
 .address-mail:focus {
   color: var(--brand-color);
+}
+.social-footer {
+  margin-left: 70px;
+}
+.social-frtitle {
+font-size: 14px;
+line-height: calc(16 / 14);
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 20px;
+}
+.social-frlist {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+.social-frlink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.social-frlink:hover {
+  background-color: var(--brand-color);
+}
+.footer-soc-icon{
+  fill: #FFFFFF;;
 }
 
 /* =================================== */
