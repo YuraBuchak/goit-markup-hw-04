@@ -201,6 +201,19 @@ margin-right: 10px;
   text-align: left;
   gap: 30px;
 }
+.preference-item {
+  width: 270px;
+}
+.preference-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  background-color: #F5F4FA;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
 .preference-subtitle {
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -216,9 +229,7 @@ margin-right: 10px;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-.preference-item {
-  width: 270px;
-}
+
 /* -----------------------------ЗАЙНЯТІСТЬ */
 .work-section {
   padding-bottom: 94px;
@@ -285,7 +296,75 @@ margin-right: 10px;
   line-height: calc(19 / 16);
   letter-spacing: 0.03em;
   color: var(--text-color);
+  margin-bottom: 16px;
 }
+.socials-contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.social-contacts-link {
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+width: 44px;
+height: 44px;
+}
+.team-soc-icon {
+  fill: var(--text-color);
+}
+.social-contacts-link:hover,
+.social-contacts-link:focus {
+  background-color: var(--brand-color);
+}
+.social-contacts-link:hover .team-soc-icon,
+.social-contacts-link:focus .team-soc-icon {
+  fill: #FFFFFF;
+}
+/* <!-- -----------ПОСТІЙНІ КЛІЄНТИ --> */
+.clients-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.clients-title {
+font-size: 36px;
+line-height: calc(42 / 36);
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+margin-bottom: 50px;
+}
+
+.clients-list {
+  display: flex;
+  gap: 30px;
+}
+.client-item {
+flex-basis: calc((100%-30*5)/6);
+}
+.client-link {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 92px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+}
+.client-link:hover,
+.client-link:focus {
+border: 1px solid var(--brand-color);
+}
+.clients-icon {
+  fill: #AFB1B8;;
+}
+.client-link:hover .clients-icon,
+.client-link:focus .clients-icon {
+  fill: var(--brand-color);
+}
+
+
 
 /* ____________________________ФУТЕР */
 
